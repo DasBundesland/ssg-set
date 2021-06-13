@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ss-ssg",
+  "version": "${version}",
+  "name": "SS-SSG",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ss-ssg/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dasbundesland.s4g.client.S4GClient"
+    ],
+    "main": [
+      "dasbundesland.s4g.S4G"
+    ]
+  },
+  "mixins": [
+    "ss-ssg.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.16.1"
+  }
+}
